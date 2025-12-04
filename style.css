@@ -718,7 +718,7 @@
 
     .heading {
         font-size: 7.3vw;
-        line-height: 4.5vh;
+        line-height: 5.2vh;
     }
 
     .paragraph {
@@ -746,6 +746,10 @@
         width: 100%;
         height: 22vh;
         margin-top: 3vh;
+    }
+
+    .events {
+        font-size: x-small;
     }
 
     .powered {
@@ -968,13 +972,13 @@
 @media (min-width:330px) and (max-width:337px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 8.7vh;
-        right: 31vw;
+        position: absolute !important;
+        bottom: 8.7vh !important;
+        right: 31vw !important;
     }
 
 }
@@ -982,13 +986,13 @@
 @media (min-width:337px) and (max-width:347px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 8.7vh;
-        right: 33vw;
+        position: absolute !important; 
+        bottom: 8.7vh !important;
+        right: 33vw !important;
     }
 
 }
@@ -996,13 +1000,13 @@
 @media (min-width:347px) and (max-width:357px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 8.7vh;
-        right: 35vw;
+        position: absolute !important;
+        bottom: 8.7vh !important;
+        right: 35vw !important;
     }
 
 }
@@ -1010,13 +1014,13 @@
 @media (min-width:357px) and (max-width:375px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 8.7vh;
-        right: 56vw;
+        position: absolute !important;
+        bottom: 8.7vh !important;
+        right: 56vw !important;
     }
 
 }
@@ -1070,7 +1074,7 @@
 
     .heading {
         font-size: 6.3vw;
-        line-height: 5vh;
+        line-height: 6vh;
     }
 
     .paragraph {
@@ -1102,7 +1106,7 @@
     }
 
     .events {
-        font-size: small;
+        font-size: x-small;
     }
 
     .event {
@@ -1281,13 +1285,13 @@
 @media (min-width:395px) and (max-width:411px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 18.1vh;
-        left: 71vw;
+        position: absolute !important;
+        bottom: 18.1vh !important;
+        left: 71vw !important;
     }
 
 }
@@ -1296,13 +1300,13 @@
 @media (min-width:411px) and (max-width:415px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 18.1vh;
-        left: 70vw;
+        position: absolute !important;
+        bottom: 18.1vh !important;
+        left: 70vw !important;
     }
 
 }
@@ -1310,26 +1314,26 @@
 @media (min-width:415px) and (max-width:421px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 18.1vh;
-        left: 69vw;
+        position: absolute !important;
+        bottom: 18.1vh !important;
+        left: 69vw !important;
     }
 
 }
 
 @media (min-width:421px) and (max-width:425px) {
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 18.1vh;
-        left: 68vw;
+        position: absolute !important;
+        bottom: 18.1vh !important;
+        left: 68vw !important;
     }
 }
 
@@ -1383,7 +1387,7 @@
 
     .heading {
         font-size: 6.3vw;
-        line-height: 5.5vh;
+        line-height: 6.5vh;
     }
 
     .paragraph {
@@ -1445,6 +1449,10 @@
 
     .trusted {
         height: 15vh;
+    }
+
+    .box {
+        line-height: 4.5vh;
     }
 
 
@@ -1550,13 +1558,13 @@
 @media (min-width:439px) and (max-width:443px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 11vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 11vw !important;
     }
 
 }
@@ -1564,13 +1572,13 @@
 @media (min-width:443px) and (max-width:453px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 11vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 11vw !important;
     }
 
 }
@@ -1578,13 +1586,13 @@
 @media (min-width:453px) and (max-width:458px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 27vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 27vw !important;
     }
 
 
@@ -1594,13 +1602,13 @@
 @media (min-width:458px) and (max-width:463px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 28vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 28vw !important;
     }
 
 }
@@ -1608,13 +1616,13 @@
 @media (min-width:463px) and (max-width:470px) {
 
     .power{
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 29vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 29vw !important;
     }
 
 }
@@ -1622,13 +1630,13 @@
 @media (min-width:470px) and (max-width:479px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 30vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 30vw !important;
     }
 
 }
@@ -1636,13 +1644,13 @@
 @media (min-width:479px) and (max-width:483px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 31vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 31vw !important;
     }
 
 }
@@ -1650,13 +1658,13 @@
 @media (min-width:444px) and (max-width:453px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 26vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 26vw !important;
     }
 
 }
@@ -1664,13 +1672,13 @@
 @media (min-width:483px) and (max-width: 490px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 39vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 39vw !important;
     }
 
 }
@@ -1678,13 +1686,13 @@
 @media (min-width: 490px) and (max-width:498px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 40vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 40vw !important;
     }
     
 }
@@ -1692,11 +1700,11 @@
 @media (min-width: 498px) and (max-width:508px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
+        position: absolute !important;
         bottom: 12.5vh;
         right: 41vw;
     }
@@ -1706,13 +1714,13 @@
 @media (min-width: 508px) and (max-width:517px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 42vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 42vw !important;
     }
     
 }
@@ -1720,13 +1728,13 @@
 @media (min-width: 517px) and (max-width:525px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 43vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 43vw !important;
     }
     
 }
@@ -1734,13 +1742,13 @@
 @media (min-width: 525px) and (max-width:535px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 44vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 44vw !important;
     }
     
 }
@@ -1748,13 +1756,13 @@
 @media (min-width: 535px) and (max-width:545px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 45vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 45vw !important;
     }
     
 }
@@ -1762,13 +1770,13 @@
 @media (min-width: 545px) and (max-width:548px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 46vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 46vw !important;
     }
     
 }
@@ -1776,13 +1784,13 @@
 @media (min-width: 548px) and (max-width:550px) {
     
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 12.5vh;
-        right: 57vw;
+        position: absolute !important;
+        bottom: 12.5vh !important;
+        right: 57vw !important;
     }
     
 }
@@ -1790,12 +1798,12 @@
 @media (min-width:495px) and (max-width:550px) {
 
     .ico {
-        height: 6vh;
-        width: 8vw;
+        height: 6vh !important;
+        width: 8vw !important;
     }
 
     .yellow {
-        width: 5vw;
+        width: 5vw !important;
     }
 }
 
@@ -1845,7 +1853,7 @@
     }
 
     .heading {
-        font-size: 5.3vw;
+        line-height: 7.5vh;
         line-height: 6.5vh;
     }
 
@@ -1936,6 +1944,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .box {
+        line-height: 4.5vh;
+    }
+
     .page4 {
         height: 235vh;
         padding: 3vh 3vw;
@@ -2001,13 +2013,13 @@
 @media (min-width:550px) and (max-width:560px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 17vh;
-        left: 34vw;
+        position: absolute !important;
+        bottom: 17vh !important;
+        left: 34vw !important;
     }
 
 }
@@ -2015,13 +2027,13 @@
 @media (min-width:560px) and (max-width:580px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 17vh;
-        left: 23vw;
+        position: absolute !important;
+        bottom: 17vh !important;
+        left: 23vw !important;
     }
 
 }
@@ -2029,13 +2041,13 @@
 @media (min-width:580px) and (max-width:627px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 17vh;
-        left: 22vw;
+        position: absolute !important;
+        bottom: 17vh !important;
+        left: 22vw !important;
     }
 
 }
@@ -2043,13 +2055,13 @@
 @media (min-width:627px) and (max-width:637px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 17vh;
-        left: 21vw;
+        position: absolute !important;
+        bottom: 17vh !important;
+        left: 21vw !important;
     }
 
 }
@@ -2058,13 +2070,13 @@
 @media (min-width:637px) and (max-width:650px) {
 
     .power {
-        position: relative;
+        position: relative !important;
     }
 
     .by {
-        position: absolute;
-        bottom: 17vh;
-        left: 10vw;
+        position: absolute !important;
+        bottom: 17vh !important;
+        left: 10vw !important;
     }
 }
 
@@ -2117,7 +2129,7 @@
 
     .heading {
         font-size: 6.3vw;
-        line-height: 7.5vh;
+        line-height: 9vh;
     }
 
     .paragraph {
@@ -2212,6 +2224,10 @@
         grid-template-columns: repeat(1, 1fr);
         padding: 0vh 20vw;
         margin-top: 10vh;
+    }
+
+    .box {
+        line-height: 4.5vh;
     }
 
     .page4 {
@@ -2328,11 +2344,11 @@
 
     .heading {
         font-size: 5.3vw;
-        line-height: 6.5vh;
+        line-height: 8.5vh;
     }
 
     .paragraph {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-top: 4vh;
         width: 69vw;
     }
@@ -2383,6 +2399,7 @@
 
     .imagediv {
         width: 7vw;
+        overflow: hidden;
     }
 
     .trusted {
@@ -2413,7 +2430,7 @@
     }
 
     .box {
-        line-height: 4vh;
+        line-height: 5vh;
     }
 
     .reviews {
@@ -2503,6 +2520,7 @@
         height: 9vh;
         left: -1.7vw;
         top: 1.5vh;
+        overflow: hidden;
     }
 
     .logo {
@@ -2534,18 +2552,19 @@
 
     .heading {
         font-size: 5.3vw;
-        line-height: 6.5vh;
+        line-height: 9vh;
     }
 
     .paragraph {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-top: 4vh;
         width: 80vw;
     }
 
     .promo {
         width: 75vw;
-        height: 10vh;
+        height: 14vh;
+        overflow: hidden;
     }
 
     .btn {
@@ -2609,6 +2628,11 @@
         gap: 2vw;
         padding: 0vh 20vw;
         margin-top: 10vh;
+    }
+
+    .box {
+        line-height: 5vh;
+        overflow: hidden;
     }
 
     .page4 {
@@ -2713,11 +2737,11 @@
 
     .heading {
         font-size: 5.3vw;
-        line-height: 6.5vh;
+        line-height: 8.5vh;
     }
 
     .paragraph {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-top: 4vh;
         width: 80vw;
     }
@@ -2737,6 +2761,7 @@
     .business {
         height: 15vh;
         width: 90%;
+        overflow: hidden;
     }
 
     .page2 {
@@ -2781,6 +2806,10 @@
         width: 94vw;
         height: 15vh;
         padding: 0vh 20vw;
+    }
+
+    .box {
+        line-height: 5vh;
     }
 
     .page4 {
@@ -2871,17 +2900,19 @@
     }
 
     .heading {
-        line-height: 6.5vh;
+        line-height: 9vh;
         font-size: 5.5vw;
     }
 
     .paragraph {
-        width: 55vw;
+        width: 70vw;
+        font-size: 2vw;
     }
 
     .promo {
         width: 55vw;
         height: 10vh;
+        overflow: hidden;
     }
 
     .btn {
@@ -2932,6 +2963,10 @@
         width: 94vw;
         gap: 3vw;
         height: 15vh;
+    }
+
+    .box {
+        line-height: 4.5vh;
     }
 
     .page4 {
@@ -3015,17 +3050,19 @@
 
     .heading {
         font-size: 5.3vw;
-        line-height: 6.5vh;
+        line-height: 9vh;
     }
 
     .paragraph {
         width: 70vw;
+        font-size: 2.3vw;
     }
 
     .promo {
         gap: 2vw;
         width: 50vw;
         height: 10vh;
+        overflow: hidden;
     }
 
     .btn {
@@ -3077,6 +3114,11 @@
         height: 15vh;
     }
 
+    .box {
+        line-height: 4.5vh;
+        overflow: hidden;
+    }
+
     .page4 {
         height: 145vh;
     }
@@ -3115,6 +3157,7 @@
 @media (min-width:1350px) and (max-width:1440px) {
 
     .page1 {
+        overflow: hidden;
         height: 150vh;
         background-position: center;
     }
@@ -3125,6 +3168,7 @@
         border-radius: 50px;
         width: 8vw;
         top: 1vh;
+        overflow: hidden;
     }
 
     .logo {
@@ -3149,11 +3193,12 @@
 
     .heading {
         font-size: 5.3vw;
-        line-height: 6.5vh;
+        line-height: 8.5vh;
     }
 
     .paragraph {
-        width: 60vw;
+        width: 66vw;
+        font-size: 2.3vw;
     }
 
     .promo {
@@ -3201,6 +3246,11 @@
     .reviews {
         width: 94vw;
         height: 12vh;
+    }
+
+    .box {
+        line-height: 4.5vh;
+        overflow: hidden;
     }
 
     .page4 {
